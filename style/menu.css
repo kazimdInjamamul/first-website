@@ -38,6 +38,9 @@
     align-items: center;
     /* /* border:2px solid gray;  */
     background-image: url('../images/image_processing20210811-21819-122d2zz.jpg'), linear-gradient(45deg,#444242b2,#6642424f);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     /* background-color: rgba(5, 5, 5, 0.712); */
     
 }
@@ -63,4 +66,18 @@
     color: aquamarine;
     border: none;
     border-radius: 5px;
+}
+.about-container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 20px; ;
+}
+.about-titel{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+    
+    
 }
